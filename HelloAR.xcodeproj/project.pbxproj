@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2010AA020C9ED3500C23BDC /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9620C9ED3500C23BDC /* wheelbarrow.usdz */; };
+		D2010AA120C9ED3500C23BDC /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9720C9ED3500C23BDC /* wateringcan.usdz */; };
+		D2010AA220C9ED3500C23BDC /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9820C9ED3500C23BDC /* trowel.usdz */; };
+		D2010AA320C9ED3500C23BDC /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9920C9ED3500C23BDC /* teapot.usdz */; };
+		D2010AA420C9ED3500C23BDC /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9A20C9ED3500C23BDC /* gramophone.usdz */; };
+		D2010AA520C9ED3500C23BDC /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9B20C9ED3500C23BDC /* cupandsaucer.usdz */; };
+		D2010AA620C9ED3500C23BDC /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9C20C9ED3500C23BDC /* retrotv.usdz */; };
+		D2010AA720C9ED3500C23BDC /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9D20C9ED3500C23BDC /* redchair.usdz */; };
+		D2010AA820C9ED3500C23BDC /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9E20C9ED3500C23BDC /* tulip.usdz */; };
+		D2010AA920C9ED3500C23BDC /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9F20C9ED3500C23BDC /* plantpot.usdz */; };
 		D283AC2320C767850080A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283AC2220C767850080A7EB /* AppDelegate.swift */; };
 		D283AC2520C767850080A7EB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2420C767850080A7EB /* art.scnassets */; };
 		D283AC2720C767850080A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283AC2620C767850080A7EB /* ViewController.swift */; };
 		D283AC2A20C767850080A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2820C767850080A7EB /* Main.storyboard */; };
 		D283AC2C20C767870080A7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2B20C767870080A7EB /* Assets.xcassets */; };
 		D283AC2F20C767870080A7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2D20C767870080A7EB /* LaunchScreen.storyboard */; };
+		D28F667F20C9A32900675E3B /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28F667E20C9A32900675E3B /* GalleryViewController.swift */; };
+		D28F668120C9A82F00675E3B /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28F668020C9A82E00675E3B /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2010A9620C9ED3500C23BDC /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		D2010A9720C9ED3500C23BDC /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wateringcan.usdz; sourceTree = "<group>"; };
+		D2010A9820C9ED3500C23BDC /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = trowel.usdz; sourceTree = "<group>"; };
+		D2010A9920C9ED3500C23BDC /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = teapot.usdz; sourceTree = "<group>"; };
+		D2010A9A20C9ED3500C23BDC /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = gramophone.usdz; sourceTree = "<group>"; };
+		D2010A9B20C9ED3500C23BDC /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		D2010A9C20C9ED3500C23BDC /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
+		D2010A9D20C9ED3500C23BDC /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
+		D2010A9E20C9ED3500C23BDC /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		D2010A9F20C9ED3500C23BDC /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plantpot.usdz; sourceTree = "<group>"; };
 		D283AC1F20C767850080A7EB /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D283AC2220C767850080A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D283AC2420C767850080A7EB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +46,8 @@
 		D283AC2B20C767870080A7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D283AC2E20C767870080A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D283AC3020C767870080A7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28F667E20C9A32900675E3B /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		D28F668020C9A82E00675E3B /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2010A9520C9ED3500C23BDC /* USDZs */ = {
+			isa = PBXGroup;
+			children = (
+				D2010A9620C9ED3500C23BDC /* wheelbarrow.usdz */,
+				D2010A9720C9ED3500C23BDC /* wateringcan.usdz */,
+				D2010A9820C9ED3500C23BDC /* trowel.usdz */,
+				D2010A9920C9ED3500C23BDC /* teapot.usdz */,
+				D2010A9A20C9ED3500C23BDC /* gramophone.usdz */,
+				D2010A9B20C9ED3500C23BDC /* cupandsaucer.usdz */,
+				D2010A9C20C9ED3500C23BDC /* retrotv.usdz */,
+				D2010A9D20C9ED3500C23BDC /* redchair.usdz */,
+				D2010A9E20C9ED3500C23BDC /* tulip.usdz */,
+				D2010A9F20C9ED3500C23BDC /* plantpot.usdz */,
+			);
+			path = USDZs;
+			sourceTree = "<group>";
+		};
 		D283AC1620C767850080A7EB = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,16 @@
 		D283AC2120C767850080A7EB /* HelloAR */ = {
 			isa = PBXGroup;
 			children = (
-				D283AC2220C767850080A7EB /* AppDelegate.swift */,
+				D283AC3020C767870080A7EB /* Info.plist */,
 				D283AC2420C767850080A7EB /* art.scnassets */,
+				D283AC2220C767850080A7EB /* AppDelegate.swift */,
+				D28F668020C9A82E00675E3B /* GalleryCollectionViewCell.swift */,
+				D28F667E20C9A32900675E3B /* GalleryViewController.swift */,
 				D283AC2620C767850080A7EB /* ViewController.swift */,
-				D283AC2820C767850080A7EB /* Main.storyboard */,
 				D283AC2B20C767870080A7EB /* Assets.xcassets */,
 				D283AC2D20C767870080A7EB /* LaunchScreen.storyboard */,
-				D283AC3020C767870080A7EB /* Info.plist */,
+				D283AC2820C767850080A7EB /* Main.storyboard */,
+				D2010A9520C9ED3500C23BDC /* USDZs */,
 			);
 			path = HelloAR;
 			sourceTree = "<group>";
@@ -126,8 +170,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D283AC2520C767850080A7EB /* art.scnassets in Resources */,
+				D2010AA420C9ED3500C23BDC /* gramophone.usdz in Resources */,
 				D283AC2F20C767870080A7EB /* LaunchScreen.storyboard in Resources */,
+				D2010AA020C9ED3500C23BDC /* wheelbarrow.usdz in Resources */,
+				D2010AA120C9ED3500C23BDC /* wateringcan.usdz in Resources */,
+				D2010AA920C9ED3500C23BDC /* plantpot.usdz in Resources */,
+				D2010AA320C9ED3500C23BDC /* teapot.usdz in Resources */,
+				D2010AA220C9ED3500C23BDC /* trowel.usdz in Resources */,
+				D2010AA720C9ED3500C23BDC /* redchair.usdz in Resources */,
+				D2010AA820C9ED3500C23BDC /* tulip.usdz in Resources */,
+				D2010AA520C9ED3500C23BDC /* cupandsaucer.usdz in Resources */,
 				D283AC2C20C767870080A7EB /* Assets.xcassets in Resources */,
+				D2010AA620C9ED3500C23BDC /* retrotv.usdz in Resources */,
 				D283AC2A20C767850080A7EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28F667F20C9A32900675E3B /* GalleryViewController.swift in Sources */,
+				D28F668120C9A82F00675E3B /* GalleryCollectionViewCell.swift in Sources */,
 				D283AC2720C767850080A7EB /* ViewController.swift in Sources */,
 				D283AC2320C767850080A7EB /* AppDelegate.swift in Sources */,
 			);

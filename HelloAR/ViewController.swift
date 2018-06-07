@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HelloAR
 //
-//  Created by Bukalapak on 05/06/18.
+//  Created by Janice Kartika on 05/06/18.
 //  Copyright © 2018 Bukalapak. All rights reserved.
 //
 
