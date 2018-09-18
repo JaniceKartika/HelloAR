@@ -79,6 +79,14 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         return url as QLPreviewItem
     }
     
+    func previewController(_ controller: QLPreviewController, transitionViewFor item: QLPreviewItem) -> UIView? {
+        let indexPath = IndexPath(item: imageIndex, section: 0)
+        if let cell = collectionView.cellForItem(at: indexPath) as? GalleryCollectionViewCell {
+            return cell.galleryImageView
+        }
+        return nil
+    }
+    
     private func preview() {
         let previewController = QLPreviewController()
         previewController.dataSource = self
