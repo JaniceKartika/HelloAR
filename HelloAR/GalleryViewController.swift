@@ -9,13 +9,10 @@
 import UIKit
 import QuickLook
 
-extension Collection where Indices.Iterator.Element == Index {
-    subscript (safe index: Index) -> Iterator.Element? {
-        return indices.contains(index) ? self[index] : nil
-    }
-}
-
-class GalleryViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, QLPreviewControllerDelegate, QLPreviewControllerDataSource {
+class GalleryViewController: UIViewController,
+    UICollectionViewDelegate, UICollectionViewDataSource,
+    QLPreviewControllerDelegate, QLPreviewControllerDataSource {
+    
     @IBOutlet var collectionView: UICollectionView!
     
     let usdzFiles = ["wheelbarrow",
@@ -47,6 +44,8 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         collectionView.reloadData()
     }
     
+    // MARK: UICollectionViewDataSource
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
     }
@@ -61,14 +60,14 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         return cell ?? UICollectionViewCell()
     }
     
+    // MARK: UICollectionViewDelegate
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         imageIndex = indexPath.item
         preview()
     }
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
+    // MARK: QLPreviewControllerDataSource
     
     func numberOfPreviewItems(in controller: QLPreviewController) -> Int {
         return 1
@@ -78,6 +77,8 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         let url = Bundle.main.url(forResource: usdzFiles[safe: imageIndex], withExtension: "usdz")!
         return url as QLPreviewItem
     }
+    
+    // MARK: QLPreviewControllerDelegate
     
     func previewController(_ controller: QLPreviewController, transitionViewFor item: QLPreviewItem) -> UIView? {
         let indexPath = IndexPath(item: imageIndex, section: 0)
@@ -93,5 +94,11 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         previewController.delegate = self
         
         present(previewController, animated: true)
+    }
+}
+
+extension Collection where Indices.Iterator.Element == Index {
+    subscript (safe index: Index) -> Iterator.Element? {
+        return indices.contains(index) ? self[index] : nil
     }
 }

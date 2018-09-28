@@ -18,8 +18,6 @@
 		D2010AA820C9ED3500C23BDC /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9E20C9ED3500C23BDC /* tulip.usdz */; };
 		D2010AA920C9ED3500C23BDC /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D2010A9F20C9ED3500C23BDC /* plantpot.usdz */; };
 		D283AC2320C767850080A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283AC2220C767850080A7EB /* AppDelegate.swift */; };
-		D283AC2520C767850080A7EB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2420C767850080A7EB /* art.scnassets */; };
-		D283AC2720C767850080A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283AC2620C767850080A7EB /* ViewController.swift */; };
 		D283AC2A20C767850080A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2820C767850080A7EB /* Main.storyboard */; };
 		D283AC2C20C767870080A7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2B20C767870080A7EB /* Assets.xcassets */; };
 		D283AC2F20C767870080A7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D283AC2D20C767870080A7EB /* LaunchScreen.storyboard */; };
@@ -40,8 +38,6 @@
 		D2010A9F20C9ED3500C23BDC /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = plantpot.usdz; sourceTree = "<group>"; };
 		D283AC1F20C767850080A7EB /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D283AC2220C767850080A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D283AC2420C767850080A7EB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		D283AC2620C767850080A7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D283AC2920C767850080A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D283AC2B20C767870080A7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D283AC2E20C767870080A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				D283AC3020C767870080A7EB /* Info.plist */,
-				D283AC2420C767850080A7EB /* art.scnassets */,
 				D283AC2220C767850080A7EB /* AppDelegate.swift */,
 				D28F668020C9A82E00675E3B /* GalleryCollectionViewCell.swift */,
 				D28F667E20C9A32900675E3B /* GalleryViewController.swift */,
-				D283AC2620C767850080A7EB /* ViewController.swift */,
 				D283AC2B20C767870080A7EB /* Assets.xcassets */,
 				D283AC2D20C767870080A7EB /* LaunchScreen.storyboard */,
 				D283AC2820C767850080A7EB /* Main.storyboard */,
@@ -169,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D283AC2520C767850080A7EB /* art.scnassets in Resources */,
 				D2010AA420C9ED3500C23BDC /* gramophone.usdz in Resources */,
 				D283AC2F20C767870080A7EB /* LaunchScreen.storyboard in Resources */,
 				D2010AA020C9ED3500C23BDC /* wheelbarrow.usdz in Resources */,
@@ -195,7 +188,6 @@
 			files = (
 				D28F667F20C9A32900675E3B /* GalleryViewController.swift in Sources */,
 				D28F668120C9A82F00675E3B /* GalleryCollectionViewCell.swift in Sources */,
-				D283AC2720C767850080A7EB /* ViewController.swift in Sources */,
 				D283AC2320C767850080A7EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
